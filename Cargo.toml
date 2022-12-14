@@ -1,0 +1,19 @@
+[package]
+name = "makerspace-modbus-mqtt-bridge"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+async-trait = "0.1.59"
+clap = { version = "4.0.29", features = ["derive", "env"] }
+env_logger = "0.10.0"
+log = "0.4.17"
+mqtt-channel-client = "0.2.0"
+paho-mqtt = { version = "0.11.1", features = ["vendored-ssl"] }
+serde = { version = "1.0.150", features = ["derive"] }
+serde_with = "2.1.0"
+thiserror = "1.0.37"
+tokio = { version = "1.23", features = ["macros", "rt-multi-thread", "signal"] }
+tokio-modbus = { version = "0.5.3", default-features = false, features = ["tcp"] }
+toml = "0.5.10"
+url = { version = "2.3.1", features = ["serde"] }

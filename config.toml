@@ -1,0 +1,56 @@
+modbus_address = "192.168.8.165:502"
+poll_interval = 300
+
+[mqtt]
+broker = "tcp://mqtt.makerspace.dan-nixon.com:1883"
+client_id = "makerspace-sensors-bridge-1"
+username = "makerspace_sensors_bridge"
+password = ""
+
+[[sensors]]
+topic = "makerspace/sensors/1/temperature"
+source = { type = "Float32", register = 2068 }
+
+[[sensors]]
+topic = "makerspace/sensors/1/humidity"
+source = { type = "Float32", register = 2080 }
+
+[[sensors]]
+topic = "makerspace/sensors/2/temperature"
+source = { type = "Float32", register = 2070 }
+
+[[sensors]]
+topic = "makerspace/sensors/2/humidity"
+source = { type = "Float32", register = 2082 }
+
+[[sensors]]
+topic = "makerspace/sensors/3/temperature"
+source = { type = "Float32", register = 2072 }
+
+[[sensors]]
+topic = "makerspace/sensors/3/humidity"
+source = { type = "Float32", register = 2084 }
+
+[[sensors]]
+topic = "makerspace/sensors/4/temperature"
+source = { type = "Float32", register = 2074 }
+
+[[sensors]]
+topic = "makerspace/sensors/4/humidity"
+source = { type = "Float32", register = 2086 }
+
+[[sensors]]
+topic = "makerspace/sensors/5/temperature"
+source = { type = "Float32", register = 2076 }
+
+[[sensors]]
+topic = "makerspace/sensors/5/humidity"
+source = { type = "Float32", register = 2088 }
+
+[[sensors]]
+topic = "makerspace/sensors/6/temperature"
+source = { type = "Float32", register = 2078 }
+
+[[sensors]]
+topic = "makerspace/sensors/6/humidity"
+source = { type = "Float32", register = 2090 }
