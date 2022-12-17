@@ -8,49 +8,49 @@ username = "makerspace_sensors_bridge"
 password = ""
 
 [[sensors]]
-topic = "makerspace/sensors/1/temperature"
+topic = "makerspace/sensors/10/temperature"
 source = { type = "Float32", register = 2068 }
 
 [[sensors]]
-topic = "makerspace/sensors/1/humidity"
+topic = "makerspace/sensors/10/humidity"
 source = { type = "Float32", register = 2080 }
 
 [[sensors]]
-topic = "makerspace/sensors/2/temperature"
+topic = "makerspace/sensors/11/temperature"
 source = { type = "Float32", register = 2070 }
 
 [[sensors]]
-topic = "makerspace/sensors/2/humidity"
+topic = "makerspace/sensors/11/humidity"
 source = { type = "Float32", register = 2082 }
 
 [[sensors]]
-topic = "makerspace/sensors/3/temperature"
+topic = "makerspace/sensors/12/temperature"
 source = { type = "Float32", register = 2072 }
 
 [[sensors]]
-topic = "makerspace/sensors/3/humidity"
+topic = "makerspace/sensors/12/humidity"
 source = { type = "Float32", register = 2084 }
 
 [[sensors]]
-topic = "makerspace/sensors/4/temperature"
+topic = "makerspace/sensors/13/temperature"
 source = { type = "Float32", register = 2074 }
 
 [[sensors]]
-topic = "makerspace/sensors/4/humidity"
+topic = "makerspace/sensors/13/humidity"
 source = { type = "Float32", register = 2086 }
 
 [[sensors]]
-topic = "makerspace/sensors/5/temperature"
+topic = "makerspace/sensors/14/temperature"
 source = { type = "Float32", register = 2076 }
 
 [[sensors]]
-topic = "makerspace/sensors/5/humidity"
+topic = "makerspace/sensors/14/humidity"
 source = { type = "Float32", register = 2088 }
 
 [[sensors]]
-topic = "makerspace/sensors/6/temperature"
+topic = "makerspace/sensors/15/temperature"
 source = { type = "Float32", register = 2078 }
 
 [[sensors]]
-topic = "makerspace/sensors/6/humidity"
+topic = "makerspace/sensors/15/humidity"
 source = { type = "Float32", register = 2090 }
