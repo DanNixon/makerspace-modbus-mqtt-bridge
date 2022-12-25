@@ -8,7 +8,7 @@ async-trait = "0.1.59"
 clap = { version = "4.0.29", features = ["derive", "env"] }
 env_logger = "0.10.0"
 log = "0.4.17"
-mqtt-channel-client = "0.2.0"
+mqtt-channel-client = "0.3.0"
 paho-mqtt = { version = "0.11.1", features = ["vendored-ssl"] }
 serde = { version = "1.0.150", features = ["derive"] }
 serde_with = "2.1.0"
